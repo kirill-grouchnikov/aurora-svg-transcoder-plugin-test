@@ -1,0 +1,12 @@
+# Compiled class file
+*.class
+.DS_Store
+
+.gradle/
+.idea/
+.settings/
+build/
+out/
+bin/
+component/src/desktopMain/kotlin/org/aurora/demo/svg/**
+component/src/desktopMain/kotlin/org/aurora/demo/scalable/svg/**
