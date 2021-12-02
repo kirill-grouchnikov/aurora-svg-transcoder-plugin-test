@@ -8,5 +8,5 @@
 build/
 out/
 bin/
-component/src/desktopMain/kotlin/org/aurora/demo/svg/**
-component/src/desktopMain/kotlin/org/aurora/demo/scalable/svg/**
+module**/src/desktopMain/kotlin/org/aurora/demo/svg**/**
+module**/src/desktopMain/kotlin/org/aurora/demo/scalable/svg**/**

@@ -1,1 +1,1 @@
-include(":component")
+include(":module1", ":module2")
