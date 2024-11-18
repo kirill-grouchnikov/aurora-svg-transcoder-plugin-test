@@ -1,16 +1,22 @@
-import org.jetbrains.compose.compose
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 buildscript {
+    repositories {
+        google()
+        mavenCentral()
+        maven("https://plugins.gradle.org/m2/")
+        maven("https://oss.sonatype.org/content/repositories/snapshots")
+    }
+
     dependencies {
-        classpath("org.pushing-pixels:aurora-tools-svg-transcoder-gradle-plugin:1.0.1")
+        classpath(libs.aurora.svgtranscoder.gradlePlugin)
     }
 }
 
 plugins {
     kotlin("multiplatform")
-    id("org.jetbrains.compose")
-    id("org.pushing-pixels.aurora.tools.svgtranscoder.gradle")
+    alias(libs.plugins.jetbrainsCompose)
+    alias(libs.plugins.compose.compiler)
     idea
 }
 
