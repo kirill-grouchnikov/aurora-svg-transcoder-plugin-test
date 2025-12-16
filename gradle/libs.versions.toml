@@ -1,7 +1,7 @@
 [versions]
 kotlin = "2.2.20"
 compose = "1.9.2"
-aurora = "2.0-SNAPSHOT"
+aurora = "2.0.0"
 versionchecker = "0.53.0"
 
 [plugins]
