@@ -25,9 +25,8 @@ kotlin {
     sourceSets {
         named("desktopMain") {
             dependencies {
-                api(compose.runtime)
-                api(compose.foundation)
-                api(compose.desktop.common)
+                api(libs.compose.runtime)
+                api(libs.compose.foundation)
             }
         }
     }

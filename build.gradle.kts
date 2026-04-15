@@ -1,5 +1,5 @@
 plugins {
-    kotlin("jvm") version "2.2.20"
+    kotlin("jvm") version "2.3.20"
     alias(libs.plugins.jetbrainsCompose)
     alias(libs.plugins.compose.compiler)
 }
@@ -15,7 +15,7 @@ buildscript {
     }
 
     dependencies {
-        classpath(libs.compose.desktop)
+        classpath(libs.compose.gradlePlugin)
         classpath(libs.kotlin.gradlePlugin)
         classpath(libs.aurora.svgtranscoder.gradlePlugin)
         classpath(libs.versionchecker.gradlePlugin)
