@@ -1,5 +1,5 @@
 plugins {
-    kotlin("jvm") version "2.3.20"
+    kotlin("jvm") version "2.4.0"
     alias(libs.plugins.jetbrainsCompose)
     alias(libs.plugins.compose.compiler)
 }
@@ -38,3 +38,7 @@ allprojects {
         }
     }
 }
+
+// To generate report about available dependency updates, run
+// ./gradlew dependencyUpdates
+apply(plugin = "com.github.ben-manes.versions")

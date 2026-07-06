@@ -1,8 +1,8 @@
 [versions]
-kotlin = "2.3.20"
-compose = "1.11.0-beta02"
-aurora = "2.5-SNAPSHOT"
-versionchecker = "0.53.0"
+kotlin = "2.4.0"
+compose = "1.11.1"
+aurora = "2.5.0"
+versionchecker = "0.54.0"
 
 [plugins]
 jetbrainsCompose = { id = "org.jetbrains.compose", version.ref = "compose" }
@@ -14,6 +14,5 @@ kotlin-gradlePlugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", ve
 aurora-svgtranscoder-gradlePlugin = { module = "org.pushing-pixels:aurora-tools-svg-transcoder-gradle-plugin", version.ref = "aurora" }
 versionchecker-gradlePlugin = { module = "com.github.ben-manes:gradle-versions-plugin", version.ref = "versionchecker" }
 
-compose-desktop = { module = "org.jetbrains.compose.desktop:desktop", version.ref = "compose" }
 compose-foundation = { module = "org.jetbrains.compose.foundation:foundation", version.ref = "compose" }
 compose-runtime = { module = "org.jetbrains.compose.runtime:runtime", version.ref = "compose" }
